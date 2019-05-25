@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhaojh.base.mapper.ILabelMapper">
+    <!-- 添加标签 -->
+    <insert id="addLabel" parameterType="com.zhaojh.base.pojo.Label">
+        insert tb_label(id,labelname,state,count,recommend,fans)
+        values(#{id},#{labelName},#{state},#{count},#{recommend},#{fans})
+    </insert>
+    <!-- 查询标签列表   -->
+    <select id="findAllLabel" resultType="com.zhaojh.base.pojo.Label">
+        select * from tb_label
+    </select>
+
+    <!-- 根据标签id 删除标签   -->
+    <delete id="removeLabelById" parameterType="string">
+        delete from tb_label where id=${id}
+    </delete>
+
+    <!-- 修改标签   -->
+    <update id="modifyLabelById" parameterType="com.zhaojh.base.pojo.Label">
+        update tb_label set labelname=#{labelName},,state=#{state},count=#{count},recommend=#{recommend},fans=#{fans}
+        where id=#{id}
+    </update>
+</mapper>
