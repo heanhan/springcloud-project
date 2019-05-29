@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springcloud_base" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_common" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_recuit" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +12,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_common/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_base/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_recuit/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -58,7 +60,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

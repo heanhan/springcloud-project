@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhao.recuit.mapper.IEnterpriseMapper">
+
+
+    <!--查询热门企业-->
+    <select id="findAllEnterpriseIsHot" parameterType="string" resultType="enterprise">
+        select * from enterprise where ishot=#{ishot}
+    </select>
+</mapper>

@@ -10,6 +10,7 @@
     <modules>
         <module>springcloud_common</module>
         <module>springcloud_base</module>
+        <module>springcloud_recuit</module>
     </modules>
 
     <groupId>com.zhaojh</groupId>
