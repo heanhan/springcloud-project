@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06b83d-41d7-41b1-a7b0-7470d005c819" name="Default Changelist" comment="springcloud 微服务项目分享">
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/SpringcloudRecuitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/EnterpriseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/RecuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IEnterpriseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IRecuitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/pojo/Enterprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/pojo/Recuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IEnterpriseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IRecuiitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/EnterpriseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/RecuitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IEnterpriseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IRecuitMapper.xml" afterDir="false" />
+    <list default="true" id="aa06b83d-41d7-41b1-a7b0-7470d005c819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_article/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_article/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_common/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_base/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_recuit/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_qa/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_article/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_user/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,80 +49,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/RecuitController.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IAdminMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1200#1215#0" expanded="true" />
-                <element signature="e#1672#1680#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IRecuiitService.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/RecuitServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IUserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IRecuitMapper.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IRecuitMapper.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_recuit/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IAdminMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="57">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -144,9 +143,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="mapper" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -162,18 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springcloud_common/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/pojo/Enterprise.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/pojo/Recuit.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/service/IRecuiitService.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/service/impl/RecuitServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/service/impl/EnterpriseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/controller/RecuitController.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/springcloud_recuit/controller/EnterpriseController.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IEnterpriseService.java" />
-        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/EnterpriseServiceImpl.java" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IEnterpriseMapper.java" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IEnterpriseMapper.xml" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/EnterpriseController.java" />
@@ -184,7 +171,47 @@
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/RecuitServiceImpl.java" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IRecuitMapper.java" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IRecuitMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/pojo/Problem.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/pojo/Reply.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/service/impl/ReplyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/service/impl/ProblemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/resources/mapper/IProblemMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/resources/mapper/IReplayMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/controller/ProblemController.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/controller/ReplyController.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Channel.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Columnts.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Article.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/IChanelService.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/ColumntsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/IChanelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IChanelMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IColumntsMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/SpringcloudArticleApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/SpringcloudRecuitApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/SpringcloudQaApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ChanelController.java" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ColumntsController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/User.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IAdminMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IUserMapper.java" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IAdminMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IUserMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -240,6 +267,58 @@
             <path>
               <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_article" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_article" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_article" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud_recuit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,6 +342,100 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,7 +451,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -289,6 +462,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhaojh\IdeaProjects\springcloud-project\springcloud_user\src\main\java\com\zhaojh\user\pojo" />
       <recent name="D:\Idea_Workspace\springcloud_parent\springcloud_base\src" />
       <recent name="D:\Idea_Workspace\springcloud_parent\springcloud_common\src\main\java" />
     </key>
@@ -306,6 +480,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringcloudRecuitApplication">
+    <configuration name="SpringcloudArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaojh.article.SpringcloudArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud_base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaojh.springcloud_base.SpringcloudBaseApplication" />
@@ -313,9 +494,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudQaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_qa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaojh.qa.SpringcloudQaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudRecuitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud_recuit" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhao.recuit.SpringcloudRecuitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaojh.user.SpringcloudUserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,12 +529,55 @@
       <workItem from="1558755530930" duration="2986000" />
       <workItem from="1558917740706" duration="1044000" />
       <workItem from="1559093668904" duration="7637000" />
-      <workItem from="1559106754182" duration="16700000" />
+      <workItem from="1559106754182" duration="24790000" />
     </task>
+    <task id="LOCAL-00001" summary="springcloud微服务：求职模块">
+      <created>1559124577063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559124577063</updated>
+    </task>
+    <task id="LOCAL-00002" summary="springcloud微服务：文章模块">
+      <created>1559131413496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559131413496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springcloud微服务：文章模块">
+      <created>1559132375848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132375848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springcloud微服务：问题-回复-模块">
+      <created>1559132442077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132442077</updated>
+    </task>
+    <task id="LOCAL-00005" summary="springcloud微服务：问题-回复-模块">
+      <created>1559132495647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132495647</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springcloud微服务 用户-管理员 模块">
+      <created>1559134116293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559134116293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28367000" />
+    <option name="totallyTimeSpent" value="36457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -356,7 +594,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.16416308" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.19313304" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29077253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,176 +662,431 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud  bengin" />
     <MESSAGE value="springcloud 微服务项目分享" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud 微服务项目分享" />
+    <MESSAGE value="springcloud微服务：求职模块" />
+    <MESSAGE value="springcloud微服务：文章模块" />
+    <MESSAGE value="springcloud微服务：问题-回复-模块" />
+    <MESSAGE value="springcloud微服务 用户-管理员 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务 用户-管理员 模块" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud_common/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/springcloud_common/src/main/java/com/common/pojo/Result.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_base/src/main/java/com/zhaojh/base/pojo/Ul.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_base/springcloud_base.iml" />
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/mvnw" />
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/pojo/Enterprise.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/service/impl/ProblemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/pojo/Recuit.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/mapper/IProblemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/mapper/IReplyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/resources/mapper/IProblemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/resources/mapper/IReplayMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/controller/ReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/controller/ProblemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/pojo/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/mapper/IArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/mapper/IChanelMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IEnterpriseMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/mapper/IColumntsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IEnterpriseMapper.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/IArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IEnterpriseService.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/IColumntsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/EnterpriseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/IChanelService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/IChanelServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/EnterpriseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/impl/RecuitServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/ColumntsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/service/IRecuiitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/mapper/IRecuitMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/service/impl/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/controller/RecuitController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IArticleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1200#1215#0" expanded="true" />
-            <element signature="e#1672#1680#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuit.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/mapper/IRecuitMapper.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IChanelMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/resources/mapper/IColumntsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="11" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_recuit/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="341">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="21" selection-start-line="22" selection-start-column="7" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_qa/src/main/java/com/zhaojh/qa/SpringcloudQaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ChanelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/pojo/Columnts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/SpringcloudArticleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/java/com/zhao/recuit/SpringcloudRecuitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/java/com/zhaojh/article/controller/ColumntsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="67" column="21" selection-start-line="57" selection-start-column="8" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IAdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IAdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_article/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_base/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_recuit/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>

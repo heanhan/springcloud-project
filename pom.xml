@@ -11,6 +11,9 @@
         <module>springcloud_common</module>
         <module>springcloud_base</module>
         <module>springcloud_recuit</module>
+        <module>springcloud_qa</module>
+        <module>springcloud_article</module>
+        <module>springcloud_user</module>
     </modules>
 
     <groupId>com.zhaojh</groupId>

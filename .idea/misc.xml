@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_article" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_base" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_common" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_qa" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_recuit" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_user" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +16,9 @@
         <option value="$PROJECT_DIR$/springcloud_common/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_base/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_recuit/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_qa/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_article/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_user/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
