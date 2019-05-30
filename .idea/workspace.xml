@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa06b83d-41d7-41b1-a7b0-7470d005c819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirngcloud_conmons/src/main/java/com/zhaojh/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/intercepter/JwtIntercepter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_elasticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_friend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_gathering/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_manager/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_sms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_spit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_web/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngcloud_conmons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spirngcloud_conmons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/SpringcloudUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/SpringcloudUserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/mapper/IUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/java/com/zhaojh/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_user/src/main/resources/mapper/IUserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,7 +93,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spirngcloud_conmons/src/main/java/com/zhaojh/utils/JwtUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="627">
               <caret line="41" column="67" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -361,6 +347,230 @@
               <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_friend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_friend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_friend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_friend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_gathering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_spit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_spit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_spit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_spit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -521,7 +731,7 @@
       <workItem from="1559093668904" duration="7637000" />
       <workItem from="1559106754182" duration="26822000" />
       <workItem from="1559178036917" duration="125000" />
-      <workItem from="1559180627824" duration="25794000" />
+      <workItem from="1559180627824" duration="26647000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud微服务：求职模块">
       <created>1559124577063</created>
@@ -579,11 +789,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559198861137</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="springcloud微服务 ：添加消息微服务，吐槽评论微服务，微服务的前、后台的微服务、服务治理的微服务、config微服务，elasticsearch微服务，基本框架的完成。">
+      <created>1559216307424</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216307424</updated>
+    </task>
+    <task id="LOCAL-00010" summary="springcloud微服务：提交遗漏的文件">
+      <created>1559216695485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216695485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="springcloud微服务：提交遗漏的文件">
+      <created>1559216852024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216852024</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64408000" />
+    <option name="totallyTimeSpent" value="65261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -673,7 +904,9 @@
     <MESSAGE value="springcloud微服务 用户-管理员 模块" />
     <MESSAGE value="springcloud微服务 修改各模块的命名" />
     <MESSAGE value="springcloud微服务 修改基础微服务，和用户微服务模块，使用JWT权限登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务 修改基础微服务，和用户微服务模块，使用JWT权限登录" />
+    <MESSAGE value="springcloud微服务 ：添加消息微服务，吐槽评论微服务，微服务的前、后台的微服务、服务治理的微服务、config微服务，elasticsearch微服务，基本框架的完成。" />
+    <MESSAGE value="springcloud微服务：提交遗漏的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务：提交遗漏的文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1107,7 +1340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spirngcloud_conmons/src/main/java/com/zhaojh/utils/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="627">
           <caret line="41" column="67" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
