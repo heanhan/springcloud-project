@@ -6,11 +6,14 @@ import com.zhaojh.pojo.StatusCode;
 import com.zhaojh.user.pojo.User;
 import com.zhaojh.user.service.IUserService;
 import com.zhaojh.utils.IdWorker;
+import com.zhaojh.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 @RequestMapping(value="/user")
@@ -26,16 +29,26 @@ public class UserController {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
+    private JwtUtil jwtUtil;
+
+    @Autowired
     private IUserService userService;
 
 
     /**
-     * 添加用户
-     * @param user  用户信息
+     * 注册用户
+     * @param user  用户信息  带有实名制认证
      * @return 统一消息返回体
      */
     @PostMapping(value="/addUser")
     public Result addUser(User user){
+
+        //添加用户之前先查询用户的是否是正常用户，无违纪
+        User identitycard = userService.findByIdentitycard(user.getIdentitycard(),"2");
+        if(identitycard !=null&&!"".equals(identitycard)){
+            return new Result(false,StatusCode.ERROR,"该用户无法注册");
+        }
+
         user.setId(idWorker.nextId()+"");//主键
         // 对密码进行加密  使用security
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
@@ -62,10 +75,16 @@ public class UserController {
             boolean matches = bCryptPasswordEncoder.matches(password, userByName.getPassword());
             if(matches)
             {
-                return new Result(true,StatusCode.OK,"登录成功",userByName);
+                //生成token
+                String token=jwtUtil.createJWT(userByName.getId(),userByName.getLoginname(),userByName.getRoles());
+                Map<String,Object> map=new HashMap<>();
+                map.put("token",token);
+                map.put("loginname",userByName.getLoginname());
+
+                return new Result(true,StatusCode.OK,"登录成功",map);
             }
         }
-        return new Result(true,StatusCode.ERROR,"登录失败");
+        return new Result(true,StatusCode.LOGINERROR,"登录失败");
     }
 
 

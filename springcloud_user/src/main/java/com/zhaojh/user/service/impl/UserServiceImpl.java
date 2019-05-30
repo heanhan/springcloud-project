@@ -33,5 +33,14 @@ public class UserServiceImpl implements IUserService {
         return userMapper.findUserByName(loginname);
     }
 
+    /**
+     * 根据身份证查询当前用户是否可用
+     * @param identitycard
+     * @return
+     */
+    public User findByIdentitycard(String identitycard,String status){
+        return userMapper.findByIdentitycard(identitycard,status);
+    }
+
 
 }

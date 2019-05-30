@@ -31,9 +31,14 @@ public class User implements Serializable {
     private String nickname;
 
     /**
-     * 昵称
+     * 角色
      */
     private String roles;
+
+    /**
+     * 身份证号
+     */
+    private String identitycard;
 
     /**
      * 性别
@@ -99,5 +104,10 @@ public class User implements Serializable {
      * 关注数
      */
     private Integer followcount;
+
+    /**
+     * 用户状态  状态：0，正常，1 禁言，2 封杀
+     */
+    private String status;
 
 }

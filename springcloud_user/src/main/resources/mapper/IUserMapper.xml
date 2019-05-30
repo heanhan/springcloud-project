@@ -13,4 +13,17 @@
         select id, loginname, PASSWORD, nickname, roles from user
         where loginname=#{loginname}
     </select>
+
+    <!--验证用户的身份证信息是否可用-->
+    <select id="findByIdentitycard" parameterType="string" resultType="user">
+        select identitycard, status from user
+        where identitycard=#{identitycard}
+        and status=#{staus}
+    </select>
+
+    <!--修改用户的状态-->
+    <update id="modifyUserStatus" parameterType="String">
+        update user set status=#{param2}
+        where id=#{param1}
+    </update>
 </mapper>

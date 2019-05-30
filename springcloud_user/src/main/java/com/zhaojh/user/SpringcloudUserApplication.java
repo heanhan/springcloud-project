@@ -1,6 +1,7 @@
 package com.zhaojh.user;
 
 import com.zhaojh.utils.IdWorker;
+import com.zhaojh.utils.JwtUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -29,6 +30,15 @@ public class SpringcloudUserApplication {
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder(){
         return new BCryptPasswordEncoder();
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Bean
+    public JwtUtil jwtUtil(){
+        return new JwtUtil();
     }
 
 }
