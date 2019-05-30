@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud_recuit" />
+        <module name="spirngcloud_conmons" />
         <module name="springcloud_user" />
         <module name="springcloud_common" />
         <module name="springcloud_qa" />
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spirngcloud_conmons" options="-parameters" />
       <module name="springcloud_article" options="-parameters" />
       <module name="springcloud_base" options="-parameters" />
       <module name="springcloud_common" options="-parameters" />

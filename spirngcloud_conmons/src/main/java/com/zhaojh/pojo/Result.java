@@ -1,4 +1,5 @@
-package com.common.pojo;
+package com.zhaojh.pojo;
+
 
 /**
  * springboot 统一消息返回体

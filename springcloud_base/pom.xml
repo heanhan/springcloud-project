@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>com.zhaojh</groupId>
-            <artifactId>springcloud_common</artifactId>
+            <artifactId>springcloud_conmons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

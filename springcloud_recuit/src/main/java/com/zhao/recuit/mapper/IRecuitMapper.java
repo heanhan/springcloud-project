@@ -1,6 +1,5 @@
 package com.zhao.recuit.mapper;
 
-import com.common.pojo.Result;
 import com.zhao.recuit.pojo.Recuit;
 import org.apache.ibatis.annotations.Mapper;
 

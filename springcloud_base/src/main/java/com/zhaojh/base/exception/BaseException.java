@@ -1,7 +1,7 @@
 package com.zhaojh.base.exception;
 
-import com.common.pojo.Result;
-import com.common.pojo.StatusCode;
+import com.zhaojh.pojo.Result;
+import com.zhaojh.pojo.StatusCode;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

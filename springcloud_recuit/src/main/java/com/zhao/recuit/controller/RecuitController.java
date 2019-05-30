@@ -1,18 +1,15 @@
 package com.zhao.recuit.controller;
 
 
-import com.common.pojo.Result;
-import com.common.pojo.StatusCode;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.zhao.recuit.pojo.Recuit;
 import com.zhao.recuit.service.IRecuiitService;
+import com.zhaojh.pojo.Result;
+import com.zhaojh.pojo.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.print.PageFormat;
-import java.awt.print.Pageable;
-import java.awt.print.Printable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
