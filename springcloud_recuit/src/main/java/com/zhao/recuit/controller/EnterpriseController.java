@@ -6,7 +6,7 @@ import com.zhao.recuit.service.IEnterpriseService;
 import com.zhaojh.pojo.Result;
 import com.zhaojh.pojo.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,7 +22,7 @@ public class EnterpriseController {
     //添加企业
 
     //查询热门企业
-    @PostMapping(value="/findAllEnterpriseIsHot")
+    @GetMapping(value="/findAllEnterpriseIsHot")
     public Result findAllEnterpriseIsHot()
     {
         List<Enterprise> allEnterpriseIsHot = enterpriseService.findAllEnterpriseIsHot("1");

@@ -17,6 +17,8 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud_spit" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_user" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_web" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_webmagic" />
+    <file type="web" url="file://$PROJECT_DIR$/webmagic" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -37,6 +39,7 @@
         <option value="$PROJECT_DIR$/springcloud_spit/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_gathering/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_webmagic/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
