@@ -3,8 +3,8 @@ package com.zhao.recuit.controller;
 
 import com.zhao.recuit.pojo.Enterprise;
 import com.zhao.recuit.service.IEnterpriseService;
-import com.zhaojh.pojo.Result;
-import com.zhaojh.pojo.StatusCode;
+import com.zhaojh.common.pojo.Result;
+import com.zhaojh.common.pojo.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

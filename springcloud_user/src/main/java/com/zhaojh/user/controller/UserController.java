@@ -1,12 +1,12 @@
 package com.zhaojh.user.controller;
 
 
-import com.zhaojh.pojo.Result;
-import com.zhaojh.pojo.StatusCode;
+import com.zhaojh.common.pojo.Result;
+import com.zhaojh.common.pojo.StatusCode;
+import com.zhaojh.common.utils.IdWorker;
+import com.zhaojh.common.utils.JwtUtil;
 import com.zhaojh.user.pojo.User;
 import com.zhaojh.user.service.IUserService;
-import com.zhaojh.utils.IdWorker;
-import com.zhaojh.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -81,7 +81,7 @@ public class UserController {
                 map.put("token",token);
                 map.put("loginname",userByName.getLoginname());
 
-                return new Result(true,StatusCode.OK,"登录成功",map);
+                return new Result(true, StatusCode.OK,"登录成功",map);
             }
         }
         return new Result(true,StatusCode.LOGINERROR,"登录失败");

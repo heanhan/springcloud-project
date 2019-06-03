@@ -1,6 +1,6 @@
 package com.zhaojh.user.intercepter;
 
-import com.zhaojh.utils.JwtUtil;
+import com.zhaojh.common.utils.JwtUtil;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

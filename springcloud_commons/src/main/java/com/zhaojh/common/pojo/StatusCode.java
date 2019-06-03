@@ -1,4 +1,4 @@
-package com.zhaojh.pojo;
+package com.zhaojh.common.pojo;
 
 public class StatusCode {
 

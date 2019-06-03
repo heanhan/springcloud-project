@@ -5,8 +5,8 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.zhao.recuit.pojo.Recuit;
 import com.zhao.recuit.service.IRecuiitService;
-import com.zhaojh.pojo.Result;
-import com.zhaojh.pojo.StatusCode;
+import com.zhaojh.common.pojo.Result;
+import com.zhaojh.common.pojo.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

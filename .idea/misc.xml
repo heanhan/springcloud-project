@@ -39,12 +39,14 @@
         <option value="$PROJECT_DIR$/springcloud_spit/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_gathering/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud_webmagic/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_commons/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/springcloud_common/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_conmons/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_webmagic/pom.xml" />
       </set>
     </option>
   </component>

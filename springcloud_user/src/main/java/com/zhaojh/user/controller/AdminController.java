@@ -1,8 +1,8 @@
 package com.zhaojh.user.controller;
 
 
-import com.zhaojh.pojo.Result;
-import com.zhaojh.pojo.StatusCode;
+import com.zhaojh.common.pojo.Result;
+import com.zhaojh.common.pojo.StatusCode;
 import com.zhaojh.user.service.IAdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +22,7 @@ public class AdminController {
      * @return
      */
     @PutMapping(value="/modifedUser/{id}/{bs}")
-    public Result modifedUser(@PathVariable String id,@PathVariable String bs){
+    public Result modifedUser(@PathVariable String id, @PathVariable String bs){
 
         int i=-1;
         switch(bs){

@@ -1,4 +1,4 @@
-package com.zhaojh.utils;
+package com.zhaojh.common.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;

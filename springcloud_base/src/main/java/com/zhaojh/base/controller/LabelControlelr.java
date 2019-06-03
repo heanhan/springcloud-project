@@ -3,9 +3,9 @@ package com.zhaojh.base.controller;
 
 import com.zhaojh.base.pojo.Label;
 import com.zhaojh.base.service.ILabelService;
-import com.zhaojh.pojo.Result;
-import com.zhaojh.pojo.StatusCode;
-import com.zhaojh.utils.IdWorker;
+import com.zhaojh.common.pojo.Result;
+import com.zhaojh.common.pojo.StatusCode;
+import com.zhaojh.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
