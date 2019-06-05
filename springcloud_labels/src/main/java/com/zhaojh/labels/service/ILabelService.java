@@ -1,23 +1,22 @@
-package com.zhaojh.base.mapper;
+package com.zhaojh.labels.service;
 
-import com.zhaojh.base.pojo.Label;
-import org.apache.ibatis.annotations.Mapper;
+
+import com.zhaojh.labels.pojo.Label;
 
 import java.util.List;
 
-@Mapper
-public interface ILabelMapper {
+public interface ILabelService {
 
     /**
      * 添加标签
-     * @param label
+     * @param label 标签
      * @return
      */
     public int addLabel(Label label);
 
     /**
      * 查询所有的标签
-     * @return
+     * @return  list 集合
      */
     public List<Label> findAllLabel();
 
@@ -30,9 +29,8 @@ public interface ILabelMapper {
 
 
     /**
-     * 根据id修改标签
      * @param  label
      * @return
      */
-    public int modifyLabelById(Label label);
+    int modifyLabelById(Label label);
 }

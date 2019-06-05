@@ -1,8 +1,8 @@
-package com.zhaojh.base.service.impl;
+package com.zhaojh.labels.service.impl;
 
-import com.zhaojh.base.mapper.ILabelMapper;
-import com.zhaojh.base.pojo.Label;
-import com.zhaojh.base.service.ILabelService;
+import com.zhaojh.labels.mapper.ILabelMapper;
+import com.zhaojh.labels.pojo.Label;
+import com.zhaojh.labels.service.ILabelService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

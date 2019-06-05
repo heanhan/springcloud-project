@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/base" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_article" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_base" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_common" />
@@ -10,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud_eureka" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_friend" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_gathering" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_labels" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_manager" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_qa" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_recuit" />
@@ -25,7 +27,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_common/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud_base/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_recuit/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_qa/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_article/pom.xml" />
@@ -40,6 +41,8 @@
         <option value="$PROJECT_DIR$/springcloud_gathering/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_commons/pom.xml" />
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_labels/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

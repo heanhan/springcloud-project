@@ -17,16 +17,18 @@
         <module name="springcloud_web" />
         <module name="springcloud_eureka" />
         <module name="springcloud_spit" />
+        <module name="base" />
+        <module name="springcloud_labels" />
         <module name="springcloud_elasticsearch" />
         <module name="springcloud_user" />
         <module name="springcloud_recuit" />
         <module name="springcloud_manager" />
         <module name="springcloud_commons" />
-        <module name="springcloud_base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spirngcloud_webmagic" target="1.8" />
+      <module name="springcloud_base" target="1.8" />
       <module name="springcloud_common" target="1.8" />
       <module name="springcloud_conmons" target="1.8" />
       <module name="springcloud_webmagic" target="1.8" />
@@ -34,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base" options="-parameters" />
       <module name="spirngcloud_webmagic" options="-parameters" />
       <module name="springcloud_article" options="-parameters" />
       <module name="springcloud_base" options="-parameters" />
@@ -45,6 +48,7 @@
       <module name="springcloud_eureka" options="-parameters" />
       <module name="springcloud_friend" options="-parameters" />
       <module name="springcloud_gathering" options="-parameters" />
+      <module name="springcloud_labels" options="-parameters" />
       <module name="springcloud_manager" options="-parameters" />
       <module name="springcloud_parent" options="-parameters" />
       <module name="springcloud_qa" options="-parameters" />

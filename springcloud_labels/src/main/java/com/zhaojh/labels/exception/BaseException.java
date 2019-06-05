@@ -1,4 +1,4 @@
-package com.zhaojh.base.exception;
+package com.zhaojh.labels.exception;
 
 
 import com.zhaojh.common.pojo.Result;

@@ -8,11 +8,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.zhaojh</groupId>
-    <artifactId>springcloud_base</artifactId>
+    <artifactId>springcloud_labels</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>springcloud_base</name>
-    <description>springcloud_base project for Spring Boot</description>
+    <name>springcloud_labels</name>
+    <description>lable project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -50,8 +54,15 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

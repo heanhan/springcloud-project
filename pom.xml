@@ -8,7 +8,7 @@
     <name>springcloud_parent</name>
     <description>微服务项目</description>
     <modules>
-        <module>springcloud_base</module>
+        <module>springcloud_labels</module>
         <module>springcloud_recuit</module>
         <module>springcloud_qa</module>
         <module>springcloud_article</module>

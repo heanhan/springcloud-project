@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhaojh.base.mapper.ILabelMapper">
+<mapper namespace="com.zhaojh.labels.mapper.ILabelMapper">
     <!-- 添加标签 -->
-    <insert id="addLabel" parameterType="com.zhaojh.base.pojo.Label">
+    <insert id="addLabel" parameterType="label">
         insert tb_label(id,labelname,state,count,recommend,fans)
         values(#{id},#{labelName},#{state},#{count},#{recommend},#{fans})
     </insert>
     <!-- 查询标签列表   -->
-    <select id="findAllLabel" resultType="com.zhaojh.base.pojo.Label">
+    <select id="findAllLabel" resultType="Label">
         select * from tb_label
     </select>
 
@@ -18,7 +18,7 @@
     </delete>
 
     <!-- 修改标签   -->
-    <update id="modifyLabelById" parameterType="com.zhaojh.base.pojo.Label">
+    <update id="modifyLabelById" parameterType="Label">
         update tb_label set labelname=#{labelName},,state=#{state},count=#{count},recommend=#{recommend},fans=#{fans}
         where id=#{id}
     </update>

@@ -1,11 +1,10 @@
-package com.zhaojh.base.controller;
+package com.zhaojh.labels.controller;
 
-
-import com.zhaojh.base.pojo.Label;
-import com.zhaojh.base.service.ILabelService;
 import com.zhaojh.common.pojo.Result;
 import com.zhaojh.common.pojo.StatusCode;
 import com.zhaojh.common.utils.IdWorker;
+import com.zhaojh.labels.pojo.Label;
+import com.zhaojh.labels.service.ILabelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

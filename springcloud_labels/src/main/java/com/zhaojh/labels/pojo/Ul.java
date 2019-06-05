@@ -1,4 +1,4 @@
-package com.zhaojh.base.pojo;
+package com.zhaojh.labels.pojo;
 
 public class Ul {
 
