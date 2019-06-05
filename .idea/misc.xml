@@ -13,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud_gathering" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_labels" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_manager" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud_python" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_qa" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_recuit" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud_sms" />
@@ -41,8 +42,9 @@
         <option value="$PROJECT_DIR$/springcloud_gathering/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_commons/pom.xml" />
-        <option value="$PROJECT_DIR$/base/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_labels/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_webmagic/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_python/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_python" />
         <module name="springcloud_qa" />
+        <module name="springcloud_webmagic" />
         <module name="springcloud_sms" />
         <module name="springcloud_article" />
         <module name="springcloud_gathering" />
@@ -17,7 +19,6 @@
         <module name="springcloud_web" />
         <module name="springcloud_eureka" />
         <module name="springcloud_spit" />
-        <module name="base" />
         <module name="springcloud_labels" />
         <module name="springcloud_elasticsearch" />
         <module name="springcloud_user" />
@@ -27,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
       <module name="spirngcloud_webmagic" target="1.8" />
       <module name="springcloud_base" target="1.8" />
       <module name="springcloud_common" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="springcloud_labels" options="-parameters" />
       <module name="springcloud_manager" options="-parameters" />
       <module name="springcloud_parent" options="-parameters" />
+      <module name="springcloud_python" options="-parameters" />
       <module name="springcloud_qa" options="-parameters" />
       <module name="springcloud_recuit" options="-parameters" />
       <module name="springcloud_sms" options="-parameters" />
