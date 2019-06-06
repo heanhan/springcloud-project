@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value ="springcloud-labels",fallback = LabelClientImpl.class)
 public interface ILabelClient {
 
-    @GetMapping(value="/findAllLabel")
+    @GetMapping(value="/label/findAllLabel")
     public Result findAllLabel();
 
 
