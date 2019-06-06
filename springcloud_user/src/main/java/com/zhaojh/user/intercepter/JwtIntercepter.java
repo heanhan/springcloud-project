@@ -29,20 +29,24 @@ public class JwtIntercepter extends HandlerInterceptorAdapter {
             final String token = authHeader.substring(7); // The partafter "Bearer "
             Claims claims = jwtUtil.parseJWT(token);
             if (claims != null) {
-                if("admin".equals(claims.get("roles"))){//如果是管理员
+                if("admin".equals(claims.get("roles"))){
+                    //如果是管理员
                     request.setAttribute("admin_claims", claims);
                 }
                 if("0".equals(claims.get("roles"))){//如果是普通用户
-                    request.setAttribute("user_claims", claims);
+                    request.setAttribute("user_claims_ordinary", claims);
                 }
-                if("1".equals(claims.get("roles"))){//如果是一级会员
-                    request.setAttribute("user_claims", claims);
+                if("1".equals(claims.get("roles"))){
+                    //如果是一级会员
+                    request.setAttribute("user_claims_vip1", claims);
                 }
-                if("2".equals(claims.get("roles"))){//如果是二级会员
-                    request.setAttribute("user_claims", claims);
+                if("2".equals(claims.get("roles"))){
+                    //如果是二级会员
+                    request.setAttribute("user_claims_vip_2", claims);
                 }
-                if("3".equals(claims.get("roles"))){//如果是三级会员
-                    request.setAttribute("user_claims", claims);
+                if("3".equals(claims.get("roles"))){
+                    //如果是三级会员
+                    request.setAttribute("user_claims_vip3", claims);
                 }
             }
         }
