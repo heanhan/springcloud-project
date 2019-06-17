@@ -1,4 +1,4 @@
-package com.zhaojh.springcloud_friend;
+package com.zhaojh.friend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
