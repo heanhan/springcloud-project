@@ -83,6 +83,7 @@ public class PostController {
         post.setContent("中华共和国");
         post.setWeight(2);
         post.setUserId(2);
+
         return postRepository.save(post);
     }
 

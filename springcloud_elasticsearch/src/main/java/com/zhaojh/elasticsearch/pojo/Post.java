@@ -21,4 +21,5 @@ public class Post {
     private int userId;
 
     private int weight;
+
 }
