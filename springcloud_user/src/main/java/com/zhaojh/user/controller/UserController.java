@@ -17,7 +17,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/user")
-@CrossOrigin
 public class UserController {
 
     private int i=-1;

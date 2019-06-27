@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value="/chanel")
-@CrossOrigin
 public class ChanelController {
 
     @Autowired

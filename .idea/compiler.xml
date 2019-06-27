@@ -31,7 +31,6 @@
       <module name="base" target="1.8" />
       <module name="spirngcloud_webmagic" target="1.8" />
       <module name="springcloud_base" target="1.8" />
-      <module name="springcloud_common" target="1.8" />
       <module name="springcloud_conmons" target="1.8" />
       <module name="springcloud_webmagic" target="1.8" />
     </bytecodeTargetLevel>

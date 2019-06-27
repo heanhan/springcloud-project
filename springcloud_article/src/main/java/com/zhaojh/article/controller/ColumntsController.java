@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value="/columnts")
-@CrossOrigin
 public class ColumntsController {
 
     @Autowired
