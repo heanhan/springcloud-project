@@ -2,10 +2,8 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_article" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud_base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud_commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_eureka" charset="UTF-8" />
@@ -20,8 +18,6 @@
     <file url="file://$PROJECT_DIR$/springcloud_spit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud_webmagic" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud_webmagic" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
