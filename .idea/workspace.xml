@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa06b83d-41d7-41b1-a7b0-7470d005c819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_config/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="aa06b83d-41d7-41b1-a7b0-7470d005c819" name="Default Changelist" comment="springcloud微服务:配置docker-maven 的插件。使用 mvn clean package docker:build -DpushImage" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_common/target/" />
@@ -62,7 +58,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud_config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="471">
               <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
             </state>
           </provider>
@@ -241,7 +237,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -471,7 +467,7 @@
       <workItem from="1563097889088" duration="193000" />
       <workItem from="1563098107085" duration="1386000" />
       <workItem from="1563157721600" duration="1285000" />
-      <workItem from="1563184777679" duration="748000" />
+      <workItem from="1563184777679" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud微服务：求职模块">
       <created>1559124577063</created>
@@ -669,14 +665,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562824218429</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="springcloud微服务:配置docker-maven 的插件。使用 mvn clean package docker:build -DpushImage">
+      <created>1563242639334</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1563242639334</updated>
+    </task>
+    <task id="LOCAL-00030" summary="springcloud微服务:配置docker-maven 的插件。使用 mvn clean package docker:build -DpushImage">
+      <created>1563245594517</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1563245594517</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225001000" />
+    <option name="totallyTimeSpent" value="226988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50107294" side_tool="true" weight="0.17217484" />
       <window_info id="Designer" order="1" />
@@ -685,7 +696,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49892703" visible="true" weight="0.18690096" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49892703" visible="true" weight="0.18690096" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733758" weight="0.2820513" />
@@ -695,7 +706,7 @@
       <window_info anchor="bottom" id="Spring" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.16452992" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840257" weight="0.32905984" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -821,7 +832,8 @@
     <MESSAGE value="springcloud微服务:使用zuul 添加统一处理跨域问题。" />
     <MESSAGE value="springcloud微服务:配置config" />
     <MESSAGE value="springcloud微服务:配置文章模块添加全局异常捕获处理，修改common的工具类模块的返回处理，以及父项目的配置调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务:配置文章模块添加全局异常捕获处理，修改common的工具类模块的返回处理，以及父项目的配置调整" />
+    <MESSAGE value="springcloud微服务:配置docker-maven 的插件。使用 mvn clean package docker:build -DpushImage" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务:配置docker-maven 的插件。使用 mvn clean package docker:build -DpushImage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1374,17 +1386,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_config/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
