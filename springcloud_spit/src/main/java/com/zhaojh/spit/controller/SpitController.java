@@ -9,11 +9,16 @@ import com.zhaojh.spit.pojo.Spit;
 import com.zhaojh.spit.service.ISpitService;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.security.provider.ConfigFile;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -56,6 +61,33 @@ public class SpitController {
         }
 
         return new Result(false, StatusCode.ERROR,"添加失败");
+    }
+
+    /**
+     * 查询所有的吐槽
+     * @return  List<Spit>
+     */
+    @GetMapping(value = "/findAllSpit")
+    public Result findAllSpit(){
+
+        List<Spit> allSpit = spitService.findAllSpit();
+        if(allSpit.size()>0){
+            return new Result(true,StatusCode.OK,"查询成功",allSpit);
+        }
+        return new Result(false,StatusCode.ERROR,"暂无结果！");
+
+    }
+
+    /**
+     *
+     * @param map  参数
+     * @return 返回分页数据
+     */
+    @GetMapping(value = "/findAllSpitByPage")
+    public Page<Spit> findAllSpitByPage(Map<String,String> map){
+        Page<Spit> allSpitByPage = spitService.findAllSpitByPage(map);
+        return allSpitByPage;
+
     }
 
 }
