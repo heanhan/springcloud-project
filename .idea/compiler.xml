@@ -15,14 +15,14 @@
         <module name="springcloud_gathering" />
         <module name="springcloud_config" />
         <module name="springcloud_friend" />
+        <module name="springcloud_qa" />
         <module name="springcloud_common" />
         <module name="springcloud_web" />
         <module name="springcloud_eureka" />
         <module name="springcloud_spit" />
-        <module name="springcloud_recuit" />
         <module name="springcloud_elasticsearch" />
         <module name="springcloud_user" />
-        <module name="springcloud_qa" />
+        <module name="springcloud_recuit" />
         <module name="springcloud_manager" />
         <module name="springcloud_commons" />
       </profile>
