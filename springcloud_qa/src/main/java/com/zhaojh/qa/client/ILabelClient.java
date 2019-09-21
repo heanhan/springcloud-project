@@ -5,10 +5,10 @@ import com.zhaojh.qa.client.impl.LabelClientImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(value ="springcloud-labels",fallback = LabelClientImpl.class)
+@FeignClient(value ="springcloud-labels",fallback = LabelClientImpl.class,configuration = FeignConfiguration.class,path = "/label")
 public interface ILabelClient {
 
-    @GetMapping(value="/label/findAllLabel")
+    @GetMapping(value="/findAllLabel")
     public Result findAllLabel();
 
 
