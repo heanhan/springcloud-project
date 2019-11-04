@@ -2,15 +2,22 @@ package com.zhaojh.article;
 
 import com.zhaojh.common.utils.IdWorker;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.event.ContextRefreshedEvent;
 
-@SpringBootApplication
+
+/**
+ * @SpringCloudApplication  注解 标识开始Spring Cloud 的
+ * 它包含了  以下三个注解。
+ * @SpringBootApplication
+ * @EnableDiscoveryClient
+ * @EnableCircuitBreaker
+ */
+@SpringCloudApplication
 @EnableEurekaClient
 public class SpringcloudArticleApplication implements ApplicationListener <ContextRefreshedEvent>{
 
