@@ -24,8 +24,9 @@
         <module>springcloud_web</module>
         <module>springcloud_config</module>
         <module>springcloud_python</module>
+        <module>springcloud_gateway</module>
+        <module></module>
         </modules>
-
     <groupId>com.zhaojh</groupId>
     <artifactId>springcloud_parent</artifactId>
     <version>1.0-SNAPSHOT</version>
